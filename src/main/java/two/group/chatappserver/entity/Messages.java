@@ -23,4 +23,13 @@ public class Messages {
 
     @DynamoDBAttribute
     private Long sentAt;
+
+    @DynamoDBAttribute
+    private Long deletedAt;
+
+    @DynamoDBAttribute
+    private String deletedBy;
+
+    @DynamoDBAttribute
+    private String fileUrl;
 }
